@@ -48,6 +48,17 @@ journalctl -u sing-box -o cat -f
 ```bash
 mkdir -p /etc/hysteria && openssl ecparam -genkey -name prime256v1 -out /etc/hysteria/private.key && openssl req -new -x509 -days 3650 -key /etc/hysteria/private.key -out /etc/hysteria/cert.pem -subj "/CN=bing.com"
 ```
+## 创建uuid和密钥
+
+```
+cd /usr/local/bin/ && ./xray uuid > uuid && ./xray x25519 > key
+```
+
+## 查看
+
+```
+cat /usr/local/bin/uuid && cat /usr/local/bin/key
+```
 
 
 # 搭建组合选择

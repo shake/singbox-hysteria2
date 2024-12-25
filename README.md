@@ -9,12 +9,12 @@
 
 ### 正式版 （支持hysteria2）
 
-```bash
+
+```
 bash -c "$(curl -L https://raw.githubusercontent.com/josbu/singbox-hysteria2/main/hysteria2.sh)" @ install
 ```
 
 
-```
 
 ### 如果需要卸载
 

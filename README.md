@@ -3,7 +3,7 @@
 1. 目前伪装最好的两种协议，一个代表tcp协议（reality）的目前巅峰，一个新型UDP协议（hysteria2）的宠儿。
 2. 这次用的sing-box搭建（[https://sing-box.sagernet.org/zh/](https://sing-box.sagernet.org/zh/)）
 3. 教程亮点，无需自备域名。
-4. passwall发现没有类似的设置教程，所以出一个。
+
 
 ## 安装sing-box
 
@@ -13,10 +13,7 @@
 bash -c "$(curl -L https://raw.githubusercontent.com/josbu/singbox-hysteria2/main/hysteria2.sh)" @ install
 ```
 
-### 直接安装预发布版（支持hysteria2）
 
-```bash
-bash -c "$(curl -L https://sing-box.vercel.app)" @ install --beta
 ```
 
 ### 如果需要卸载
@@ -55,7 +52,7 @@ mkdir -p /etc/hysteria && openssl ecparam -genkey -name prime256v1 -out /etc/hys
 ```markdown
 # 搭建组合选择
 
-参考网站 [https://github.com/chika0801/sing-box-examples](https://github.com/chika0801/sing-box-examples)。后期可以根据需求自由组合。
+参考网站 [sing-box-examples](https://github.com/chika0801/sing-box-examples)。后期可以根据需求自由组合。
 
 ## 为什么选择 reality 和 hysteria2
 

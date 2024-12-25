@@ -4,6 +4,7 @@
 2. 这次用的sing-box搭建（[https://sing-box.sagernet.org/zh/](https://sing-box.sagernet.org/zh/)）
 3. 教程亮点，无需自备域名。
 
+我是希望可以一个脚本，搞定sing-box和这2个协议。
 
 ## 安装sing-box
 

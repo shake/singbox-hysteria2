@@ -52,7 +52,7 @@ mkdir -p /etc/hysteria && openssl ecparam -genkey -name prime256v1 -out /etc/hys
 ```markdown
 # 搭建组合选择
 
-参考网站 [sing-box-examples](https://github.com/chika0801/sing-box-examples)。后期可以根据需求自由组合。
+[sing-box-examples](https://github.com/chika0801/sing-box-examples)
 
 ## 为什么选择 reality 和 hysteria2
 
